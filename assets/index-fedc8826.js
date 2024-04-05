@@ -814,26 +814,49 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   height: 100vh;
   scroll-snap-align: center;
   scroll-snap-stop: always;
-`,MY=Ie.div`
-  width: 100%;
-  height: 100%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
-  gap: 50px;
-`,EY=Ie.div`
-  flex: 1;
-  display: flex;
-  align-items: left;
-  justify-content: flex-end;
 
   @media only screen and (max-width: 768px) {
+    height: 200vh;
+  }
+`,MY=Ie.div`
+  height: 100%;
+  scroll-snap-align: center;
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
-`,bY=Ie.div`
-  flex: 1;
+`,EY=Ie.div`
+  flex: 2;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+
+  @media only screen and (max-width: 768px) {
+    flex: 1;
+    align-items: center;
+    width: 100%;
+  }
+`,bY=Ie.div`
+  flex: 3;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  @media only screen and (max-width: 768px) {
+    flex: 1;
+    width: 100%;
+  }
 `,AY=Ie.h1`
   font-weight: 200;
   color: #333;
