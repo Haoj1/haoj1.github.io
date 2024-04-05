@@ -5797,6 +5797,10 @@ vec3 mod289(vec3 x){return x-floor(x*(1.0/289.0))*289.0;}vec4 mod289(vec4 x){ret
   height: 100vh;
   scroll-snap-align: center;
   scroll-snap-stop: always;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 `,fue=Ie.div`
   width: 100%;
   height: 100%;
@@ -5818,13 +5822,13 @@ vec3 mod289(vec3 x){return x-floor(x*(1.0/289.0))*289.0;}vec4 mod289(vec4 x){ret
   }
 `,hue=Ie.a`
   padding: 10px 20px;
-  background-color: #007bff; // 你可以选择你喜欢的颜色
+  background-color: #333; // 你可以选择你喜欢的颜色
   color: white;
   text-decoration: none;
   border-radius: 5px;
   cursor: pointer;
   &:hover {
-    background-color: #0056b3; // 按钮悬停时的颜色
+    background-color: rgb(0, 0, 0, 0.7); // 按钮悬停时的颜色
   }
 `,pue=()=>be(cue,{children:Lt(fue,{id:"Resume",children:[be(due,{src:"/Resume/Haoji Bian resume sde intern.pdf"}),be(hue,{href:"/Resume/Haoji Bian resume sde intern.pdf",download:"Haoji_Bian_Resume.pdf",children:"Download Resume"})]})}),mue=Ie.div.attrs({className:"root-container"})`
   height: 100vh;
