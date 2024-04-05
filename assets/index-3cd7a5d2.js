@@ -5811,7 +5811,7 @@ vec3 mod289(vec3 x){return x-floor(x*(1.0/289.0))*289.0;}vec4 mod289(vec4 x){ret
   border: none;
 
   @media screen and (max-width: 768px) {
-    width: 100%; // Make iframe take full width of the screen on small devices
+    width: 90%; // Make iframe take full width of the screen on small devices
     height: 50vh; // Adjust the height as required
     object-fit: cover;
     margin-top: 0;
