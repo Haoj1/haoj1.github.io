@@ -5164,6 +5164,9 @@ vec3 mod289(vec3 x){return x-floor(x*(1.0/289.0))*289.0;}vec4 mod289(vec4 x){ret
   font-size: 24px;
   color: #333; /* This is a lighter shade of black */
   font-weight: 300; /* This will make the font weight lighter */
+  @media only screen and (max-width: 768px) {
+    font-size: 16px;
+  }
 `,OS=Ie.span`
   color: #990000; /* This is a shade of crimson red */
   font-weight: 500; /* If you want it to be a little bolder */
