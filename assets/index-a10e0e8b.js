@@ -5809,6 +5809,13 @@ vec3 mod289(vec3 x){return x-floor(x*(1.0/289.0))*289.0;}vec4 mod289(vec4 x){ret
   width: 80%;
   height: 80vh; // Adjust the height as required
   border: none;
+
+  @media screen and (max-width: 768px) {
+    width: 100%; // Make iframe take full width of the screen on small devices
+    height: 50vh; // Adjust the height as required
+    object-fit: cover;
+    margin-top: 0;
+  }
 `,hue=()=>be(cue,{children:be(fue,{id:"Resume",children:be(due,{src:"/Resume/Haoji Bian resume sde intern.pdf"})})}),pue=Ie.div.attrs({className:"root-container"})`
   height: 100vh;
   scroll-snap-type: y mandatory;
