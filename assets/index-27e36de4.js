@@ -5140,15 +5140,11 @@ vec3 mod289(vec3 x){return x-floor(x*(1.0/289.0))*289.0;}vec4 mod289(vec4 x){ret
     align-items: center;
   }
 `,dle=Ie.div`
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-
+  flex: 3;
+  position: relative;
   @media only screen and (max-width: 768px) {
-    align-items: center;
-    text-align: center;
+    flex: 1;
+    width: 100%;
   }
 `,hle=Ie.h1`
   font-size: 74px;
