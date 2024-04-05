@@ -5285,7 +5285,7 @@ vec3 mod289(vec3 x){return x-floor(x*(1.0/289.0))*289.0;}vec4 mod289(vec4 x){ret
   transition: transform 0.3s ease, margin 0.3s ease;
   color: rgba(0, 0, 0, 0.7);
   @media only screen and (max-width: 768px) {
-    width: 100vw;
+    width: 500px;
     font-size: 1em;
   }
   &:hover {
