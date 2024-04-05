@@ -5797,14 +5797,11 @@ vec3 mod289(vec3 x){return x-floor(x*(1.0/289.0))*289.0;}vec4 mod289(vec4 x){ret
   height: 100vh;
   scroll-snap-align: center;
   scroll-snap-stop: always;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 `,fue=Ie.div`
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 50px;
@@ -5816,7 +5813,7 @@ vec3 mod289(vec3 x){return x-floor(x*(1.0/289.0))*289.0;}vec4 mod289(vec4 x){ret
 
   @media screen and (max-width: 768px) {
     width: 90%; // Make iframe take full width of the screen on small devices
-    height: 80vh; // Adjust the height as required
+    height: 90vh; // Adjust the height as required
     object-fit: cover;
     margin-top: 0;
   }
