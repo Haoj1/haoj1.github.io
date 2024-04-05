@@ -5129,18 +5129,17 @@ vec3 mod289(vec3 x){return x-floor(x*(1.0/289.0))*289.0;}vec4 mod289(vec4 x){ret
   display: flex;
   justify-content: space-between;
 `,fle=Ie.div`
-  flex: 1;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
 
   @media only screen and (max-width: 768px) {
-    display: none;
+    flex: 1;
+    align-items: center;
   }
-`,dle=Ie.h1`
-  font-size: 74px;
-
-  @media only screen and (max-width: 768px) {
-    font-size: 60px;
-  }
-`,hle=Ie.div`
+`,dle=Ie.div`
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -5150,6 +5149,12 @@ vec3 mod289(vec3 x){return x-floor(x*(1.0/289.0))*289.0;}vec4 mod289(vec4 x){ret
   @media only screen and (max-width: 768px) {
     align-items: center;
     text-align: center;
+  }
+`,hle=Ie.h1`
+  font-size: 74px;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 60px;
   }
 `,ple=Ie.div`
   display: flex;
@@ -5175,7 +5180,7 @@ vec3 mod289(vec3 x){return x-floor(x*(1.0/289.0))*289.0;}vec4 mod289(vec4 x){ret
   border: none;
   border-radius: 5px;
   cursor: pointer;
-`;const vle=()=>Ae(ule,{children:Ot(cle,{id:"About",children:[Ae(fle,{children:Ae(W5,{camera:{position:[5,5,5],fov:25},children:Ot(K.Suspense,{fallback:null,children:[Ae("ambientLight",{intensity:.5}),Ae("directionalLight",{position:[3,2,1]}),Ae(lle,{}),Ae(mB,{enableZoom:!1,autoRotate:!0})]})})}),Ot(hle,{children:[Ae(dle,{children:"WHO I AM"}),Ot(ple,{children:[Ae(mle,{src:"./img/line.png"}),Ae(gle,{children:"What I do"})]}),Ot(yN,{children:["Currently, I'm pursuing my master's in Computer Science at"," ",Ae(OS,{children:"Northwestern University"}),". Previously, I earned my bachelor's degree in Computer Science & Data Science from the"," ",Ae(OS,{children:"University of Wisconsin - Madison"}),"."]}),Ot(yN,{children:["As an owner of two cats, during my CS studies at UW-Madison, I used my knowledge related to software development to create a platform for pet lovers"," ",Ae(OS,{children:Ae("a",{href:"https://katfun.com",target:"_blank",rel:"noopener noreferrer",children:"Katfun.com"})}),". At the same time, I want to be able to develop pet-related smart IoT devices in the future to bring benefits to the pet community, and I am pursuing a master's degree in computer engineering at Northwestern University!"]})]})]})}),K0=[{name:"katfun.com (A Social Media Platform for Cat Lovers)",image:"/img/Projects/Katfun.png",link:"https://katfun.com",delay:0},{name:"VR Classroom (Unity 3D)",image:"/img/Projects/VR.jpg",link:"https://github.com/Haoj1/VR_ExamRoom",demo:"https://www.youtube.com/watch?v=4Tu__iKGZo0&t=93s",delay:.1},{name:"Airline Data Analysis (Machine Learning)",image:"/img/Projects/bigdata.png",link:"https://github.com/Haoj1/Big-Data-Econ-Analysis",delay:.2},{name:"Picar (IoT, Robotics & AI)",image:"/img/Projects/picar.webp",link:"https://github.com/Haoj1/SunFounder_PiCar",delay:.2}],yle=Ie.div`
+`;const vle=()=>Ae(ule,{children:Ot(cle,{id:"About",children:[Ae(fle,{children:Ae(W5,{camera:{position:[5,5,5],fov:25},children:Ot(K.Suspense,{fallback:null,children:[Ae("ambientLight",{intensity:.5}),Ae("directionalLight",{position:[3,2,1]}),Ae(lle,{}),Ae(mB,{enableZoom:!1,autoRotate:!0})]})})}),Ot(dle,{children:[Ae(hle,{children:"WHO I AM"}),Ot(ple,{children:[Ae(mle,{src:"./img/line.png"}),Ae(gle,{children:"What I do"})]}),Ot(yN,{children:["Currently, I'm pursuing my master's in Computer Science at"," ",Ae(OS,{children:"Northwestern University"}),". Previously, I earned my bachelor's degree in Computer Science & Data Science from the"," ",Ae(OS,{children:"University of Wisconsin - Madison"}),"."]}),Ot(yN,{children:["As an owner of two cats, during my CS studies at UW-Madison, I used my knowledge related to software development to create a platform for pet lovers"," ",Ae(OS,{children:Ae("a",{href:"https://katfun.com",target:"_blank",rel:"noopener noreferrer",children:"Katfun.com"})}),". At the same time, I want to be able to develop pet-related smart IoT devices in the future to bring benefits to the pet community, and I am pursuing a master's degree in computer engineering at Northwestern University!"]})]})]})}),K0=[{name:"katfun.com (A Social Media Platform for Cat Lovers)",image:"/img/Projects/Katfun.png",link:"https://katfun.com",delay:0},{name:"VR Classroom (Unity 3D)",image:"/img/Projects/VR.jpg",link:"https://github.com/Haoj1/VR_ExamRoom",demo:"https://www.youtube.com/watch?v=4Tu__iKGZo0&t=93s",delay:.1},{name:"Airline Data Analysis (Machine Learning)",image:"/img/Projects/bigdata.png",link:"https://github.com/Haoj1/Big-Data-Econ-Analysis",delay:.2},{name:"Picar (IoT, Robotics & AI)",image:"/img/Projects/picar.webp",link:"https://github.com/Haoj1/SunFounder_PiCar",delay:.2}],yle=Ie.div`
   height: 100vh;
   scroll-snap-align: center;
   scroll-snap-stop: always;
