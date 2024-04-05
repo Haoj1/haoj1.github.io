@@ -5262,7 +5262,7 @@ vec3 mod289(vec3 x){return x-floor(x*(1.0/289.0))*289.0;}vec4 mod289(vec4 x){ret
   transition: transform 0.3s ease, margin 0.3s ease;
   color: rgba(0, 0, 0, 0.7);
   @media only screen and (max-width: 768px) {
-    width: 100%;
+    width: 80vw;
     font-size: 1em;
   }
   &:hover {
@@ -5274,8 +5274,8 @@ vec3 mod289(vec3 x){return x-floor(x*(1.0/289.0))*289.0;}vec4 mod289(vec4 x){ret
   }
 `,Mle=Ie.img`
   margin-top: 20px; // 图片和卡片上边缘的距离
-  width: auto;
-  height: 70%; // 图片占卡片的比例
+  height: auto;
+  width: 70%; // 图片占卡片的比例
   border-radius: 10px;
   object-fit: cover; // 保证图片铺满容器
   @media only screen and (max-width: 768px) {
