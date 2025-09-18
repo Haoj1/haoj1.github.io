@@ -5847,7 +5847,7 @@ vec3 mod289(vec3 x){return x-floor(x*(1.0/289.0))*289.0;}vec4 mod289(vec4 x){ret
   &:hover {
     background-color: rgb(0, 0, 0, 0.7); // 按钮悬停时的颜色
   }
-`,rue=()=>Te(eue,{children:Ot(tue,{id:"Resume",children:[Te(nue,{src:"/Resume/Haoji Bian resume sde.pdf"}),Ot(iue,{href:"/Resume/Haoji Bian resume sde.pdf",download:"Haoji_Bian_Resume.pdf",children:[Te(il,{icon:G7})," ","Download Resume"]})]})}),sue=Ie.div.attrs({className:"root-container"})`
+`,rue=()=>Te(eue,{children:Ot(tue,{id:"Resume",children:[Te(nue,{src:"/Resume/Haoji Bian resume.pdf"}),Ot(iue,{href:"/Resume/Haoji Bian resume sde.pdf",download:"Haoji_Bian_Resume.pdf",children:[Te(il,{icon:G7})," ","Download Resume"]})]})}),sue=Ie.div.attrs({className:"root-container"})`
   height: 100vh;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
